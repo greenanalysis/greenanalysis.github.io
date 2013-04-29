@@ -1,2 +1,0 @@
-greenanalysis.github.io
-=======================
