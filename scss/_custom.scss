@@ -6,7 +6,7 @@
  **************************************************/
 
 /* Variables */
-$width: 900px;
+$width: 700px;
 
 
 
@@ -70,16 +70,35 @@ section.main {
   padding: 50px;
 
   color: #333
-
+}  
+h2 {
+  float: left;
+  margin: 20px 0 20px 0;
 }
+
 
 article {
   float: left;
   width: 100%;
-
   padding: 25px;
 
   background-color: #FFFFFF;
+  @include border-radius(5px);
+
+  span {
+    font-size: 50px;
+    float: left;
+
+    clear: both;
+  }
+  p {
+    float: right;
+    width: 92%;
+    margin-top: 13px;  
+  }
+  p.last {
+    margin-top: 22px;
+  }
 }
 
 footer {
