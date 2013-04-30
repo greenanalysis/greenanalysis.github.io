@@ -41,7 +41,7 @@ header {
 
   //color
   background-color: #5A9C78;
-  color: #E8EBEF;
+  color: #FFFFFF;
 
   section {
     margin: 0 auto;
@@ -51,7 +51,7 @@ header {
       float: left;
       
       a {
-        color: #E8EBEF;
+        color: #FFFFFF;
         text-decoration: none;
 
       }
@@ -61,7 +61,7 @@ header {
         margin-top: 6px;
       a {
         text-decoration: none;
-        color: #E8EBEF;
+        color: #FFFFFF;
       }
     }
   }
@@ -93,9 +93,8 @@ article {
   @include border-radius(5px);
 
   span {
-    font-size: 50px;
+    margin: 14px 0 0 0;
     float: left;
-
     clear: both;
   }
   p {
@@ -127,7 +126,7 @@ footer {
   p {
     float: left;
     margin: 10px 0 0 5px;
-    font-size: 12px;
+    font-size: 14px;
     
     a {
       color: #57A837;
