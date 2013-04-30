@@ -41,7 +41,7 @@ header {
 
   //color
   background-color: #5A9C78;
-  color: #FFFFFF;
+  color: #E8EBEF;
 
   section {
     margin: 0 auto;
@@ -51,13 +51,18 @@ header {
       float: left;
       
       a {
-        color: #FFFFFF;
+        color: #E8EBEF;
         text-decoration: none;
 
       }
     }
     nav {
       float: right;
+        margin-top: 6px;
+      a {
+        text-decoration: none;
+        color: #E8EBEF;
+      }
     }
   }
 
@@ -75,7 +80,7 @@ h2 {
   float: left;
   margin: 20px 0 20px 0;
 
-  color: #FFFFFF;
+  color: #E8EBEF;
 }
 
 
@@ -84,7 +89,7 @@ article {
   width: 100%;
   padding: 25px;
 
-  background-color: #FFFFFF;
+  background-color: #E8EBEF;
   @include border-radius(5px);
 
   span {
@@ -103,17 +108,30 @@ article {
   }
 }
 
+article.contact {
+  p {
+    width: 98%;
+  }
+  a {
+    color: #57A837;
+  }
+}
+
+
 footer {
   margin: 0 auto;
   width: $width;
 
-  color: #FBFBFB;
+  color: #E8EBEF;
 
   p {
     float: left;
     margin: 10px 0 0 5px;
     font-size: 12px;
     
+    a {
+      color: #57A837;
+    }
   }
 }
 
